@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  4
-//
-//  Created by User on 16.09.2020.
-//  Copyright © 2020 User. All rights reserved.
-//
 
 #include <iostream>
 #include <cmath>
@@ -36,7 +29,7 @@ int main()
     //n=10;
     //arct=0;
    
-    while (no_real_arct != real_arct )
+    while (no_real_arct != okrReal )
     {
         arct=0;
         n=n+1;
@@ -51,7 +44,7 @@ int main()
         no_real_arct=double (int (arct * pow( 10, t ))) / pow( 10, t ) ; // убирает числа после запятой
         std::cout << "искуственный арктангес === "<< std::setprecision(12) << no_real_arct << "\n\n"; //проверка
     }
-    std::cout << n << "\n";
+    std::cout << n << " - итерация\n";
 }
     
     
