@@ -10,7 +10,7 @@
 
 int main()
 {
-    for (int i = 32; i < 127; ++i)
+    for (int i = 33; i < 127; ++i)
     {
         std::cout << i << " === ";
         std::cout << static_cast<char>(i) << "\n";
