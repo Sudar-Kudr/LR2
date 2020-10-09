@@ -18,7 +18,7 @@ int main()
     switch (x%5)
     {
         case 0:
-            cout << "Результат: " << 3*x << endl;
+            cout << "Результат: " << -3*x << endl;
             break;
         case 1:
             cout << "Результат: " << -x*x << endl;
